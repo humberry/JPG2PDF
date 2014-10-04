@@ -1,1 +1,2 @@
-Insert JPGs and get a PDF
+Insert JPGs and get a PDF<br />
+You need reportlab!
