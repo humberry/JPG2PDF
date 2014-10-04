@@ -7,7 +7,7 @@ from reportlab.lib.units import cm
 from reportlab.lib.pagesizes import *
 from PIL import Image
 
-pages = {'A0':A0, 'A1':A1, 'A2':A2, 'A3':A3, 'A4':A4, 'A5':A5, 'A6':A6}
+pages = {'A0':A0, 'A1':A1, 'A2':A2, 'A3':A3, 'A4':A4, 'A5':A5, 'A6':A6, 'Letter':LETTER, 'Legal':LEGAL, 'ElevenSeventeen':ELEVENSEVENTEEN, 'B0':B0, 'B1':B1, 'B2':B2, 'B3':B3, 'B4':B4, 'B5':B5, 'B6':B6}
 
 view = ui.load_view('JPG2PDF')
 filename = view['textfield1']
